@@ -13,7 +13,7 @@ term_handler() {
 
 trap term_handler SIGTERM
 
-APPNAME=`node -p "require('./package.json').name"``
+APPNAME=`node -p "require('./package.json').name"`
 
 # the redirection trick makes sure that $! is the pid
 # of the "node build/index.js" process

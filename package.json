@@ -1,6 +1,6 @@
 {
   "name": "pino-papertrail-runner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run project and log to papertrail",
   "main": "index.js",
   "scripts": {
