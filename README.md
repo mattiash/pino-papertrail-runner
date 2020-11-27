@@ -2,6 +2,8 @@
 
 Utility for running a node-project in a docker container and logging with pino to [papertrail](https://papertrailapp.com/).
 
+Uses the technique from https://github.com/mattiash/docker-pino-sample to make sure that the exit codes are passed correctly.
+
 ## Usage
 
 In your Dockerfile, do the following:

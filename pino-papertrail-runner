@@ -19,7 +19,7 @@ APPNAME=`node -p "require('./package.json').name"`
 
 # the redirection trick makes sure that $! is the pid
 # of the "node build/index.js" process
-npm start > >($DIR/node_modules/.bin/pino-papertrail --connection tls --host $PAPERTRAIL_HOST --port $PAPERTRAIL_PORT --appname APPNAME --message-only) &
+npm start > >($DIR/node_modules/.bin/pino-papertrail --connection tls --host $PAPERTRAIL_HOST --port $PAPERTRAIL_PORT --appname $APPNAME --message-only) &
 worker="$!"
 
 wait $worker
