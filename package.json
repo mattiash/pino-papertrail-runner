@@ -1,0 +1,17 @@
+{
+  "name": "pino-papertrail-runner",
+  "version": "0.0.1",
+  "description": "Run project and log to papertrail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pino-papertrail-runner": "./pino-papertrail-runner"
+  },
+  "author": "Mattias Holmlund <mattias@holmlund.se>",
+  "license": "ISC",
+  "dependencies": {
+    "pino-papertrail": "^2.1.0"
+  }
+}
