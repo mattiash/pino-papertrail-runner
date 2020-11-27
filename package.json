@@ -1,6 +1,6 @@
 {
   "name": "pino-papertrail-runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run project and log to papertrail",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,13 @@
   },
   "bin": {
     "pino-papertrail-runner": "./pino-papertrail-runner"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/mattiash/pino-papertrail-runner.git"
+  },
+  "bugs": {
+      "url": "https://github.com/mattiash/pino-papertrail-runner/issues"
   },
   "author": "Mattias Holmlund <mattias@holmlund.se>",
   "license": "ISC",
